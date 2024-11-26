@@ -1,0 +1,26 @@
+default:
+  dataconnection:
+    driver: 'PostgreSQL Unicode(x64)'
+    server: 'aws-0-us-east-2.pooler.supabase.com'
+    uid: 'postgres.wkmtawyvxkiwztiqxcna'
+    pwd: 'NewProj2024*'
+    port: 6543
+    database: 'postgres'
+
+local:
+  dataconnection:
+    driver: 'PostgreSQL Unicode(x64)'
+    server: 'aws-0-us-east-2.pooler.supabase.com'
+    uid: 'postgres.wkmtawyvxkiwztiqxcna'
+    pwd: 'NewProj2024*'
+    port: 6543
+    database: 'postgres'
+
+shinyapps:
+  dataconnection:
+    driver: 'PostgreSQL'
+    server: 'aws-0-us-east-2.pooler.supabase.com'
+    uid: 'postgres.wkmtawyvxkiwztiqxcna'
+    pwd: 'NewProj2024*'
+    port: 6543
+    database: 'postgres'
